@@ -1,8 +1,4 @@
-package com.grover101.misarticulos;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+package com610.tareas.articulos610;
 
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
@@ -10,6 +6,10 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.LruCache;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -54,7 +54,9 @@ public class BaseDatosActivity extends AppCompatActivity {
         });
 
         RequestQueue colaPeticiones2= Volley.newRequestQueue(getApplicationContext());
-        StringRequest peticion = new StringRequest(Request.Method.GET, "https://mis-articulos-d3e65-default-rtdb.firebaseio.com/Articulos.json", new Response.Listener<String>() {
+        //
+        //https://mis-articulos-d3e65-default-rtdb.firebaseio.com/Articulos.json
+        StringRequest peticion = new StringRequest(Request.Method.GET, "https://articulos406-default-rtdb.firebaseio.com/articulos.json", new Response.Listener<String>() {
             @Override
             public void onResponse(String respuesta) {
                 Log.i("Respondio","OnResponse"+respuesta);

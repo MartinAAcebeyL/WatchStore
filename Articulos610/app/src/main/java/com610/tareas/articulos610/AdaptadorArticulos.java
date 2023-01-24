@@ -1,4 +1,4 @@
-package com.grover101.misarticulos;
+package com610.tareas.articulos610;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
-
-import  com.grover101.misarticulos.BaseDatosActivity;
 
 import java.util.List;
 
@@ -55,9 +52,9 @@ public class AdaptadorArticulos extends RecyclerView.Adapter<AdaptadorArticulos.
         holder.nombre.setText(items[0]);
         holder.detalle.setText(items[1]);
         holder.costo.setText(items[2]);
-        holder.icon.setImageUrl("https://franz.usfx.bo/nube/"+items[3], BaseDatosActivity.lectorImagenes);
-//      holder.icon.setImageUrl("https://mis-articulos-2be33.web.app/img/"+items[3], BasedeDatosActivity.lectorImagenes);
-
+        //holder.icon.setImageUrl("https://franz.usfx.bo/nube/"+items[3], BaseDatosActivity.lectorImagenes);
+//      holder.icon.setImageUrl("https://mis-articulos-2be33.web.app/img/"+items[3], BaseDatosActivity.lectorImagenes);
+        holder.icon.setImageUrl("https://mis-articulos-5226b.web.app/images/"+items[3], BaseDatosActivity.lectorImagenes);
     }
 
 

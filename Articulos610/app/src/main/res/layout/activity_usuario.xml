@@ -10,6 +10,6 @@ android:orientation="vertical">
     android:id="@+id/fragmentUsuario"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    class="com.grover101.misarticulos.UsuarioFragment"
+    class="com610.tareas.articulos610.UsuarioFragment"
     />
 </LinearLayout>

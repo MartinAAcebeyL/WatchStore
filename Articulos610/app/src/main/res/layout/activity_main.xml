@@ -22,7 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/grover_limachi_carrillo"
+        android:text="@string/martin_andres_acebey_laime"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_datos_usuario"
         app:layout_constraintEnd_toEndOf="@+id/textView2"

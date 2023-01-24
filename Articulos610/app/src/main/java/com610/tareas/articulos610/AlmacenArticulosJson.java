@@ -1,7 +1,6 @@
-package com.grover101.misarticulos;
+package com610.tareas.articulos610;
 
 import android.util.Log;
-
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

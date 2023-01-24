@@ -1,4 +1,4 @@
-package com.grover101.misarticulos;
+package com610.tareas.articulos610;
 public class Articulos {
     private String nombre;
     private String descripcion;

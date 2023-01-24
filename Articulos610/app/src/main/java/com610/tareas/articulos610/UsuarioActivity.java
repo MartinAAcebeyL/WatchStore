@@ -1,8 +1,8 @@
-package com.grover101.misarticulos;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com610.tareas.articulos610;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class UsuarioActivity extends AppCompatActivity {
 
